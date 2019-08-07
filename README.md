@@ -157,4 +157,6 @@ class DetailTodo(generics.RetrieveUpdateDestroyAPIView):
 
 Then we can go to [http://localhost:8000/api](http://localhost:8000/api) to see our List Todo view. This contains actual JSON available at this point. To see also the Detail Todo views we can go to [http://localhost:8000/api/1/](http://localhost:8000/api/1/) for example.
 
-Finally, add ```django-cors-headers``` to our app. First, add it to ```INSTALLED_APPS```. Add to new middlewear at the top and create a ```CORS_ORIGIN_WHITELIST```.
+Finally, add ```django-cors-headers``` to our app. First, add it to ```INSTALLED_APPS```. Add to new middleware at the top and create a ```CORS_ORIGIN_WHITELIST```.
+
+Time to move to the frontend.
