@@ -32,7 +32,7 @@ Then run the main python script:
 > python main.py
 ```
 
-## Django Celery
+## Django React REST API
 
 Create the project
 
