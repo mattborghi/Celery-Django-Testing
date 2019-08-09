@@ -23,7 +23,7 @@ Run celery first by executing our program (```tasks.py```) with the worker argum
 or on Windows
 
 ```sh
-> celery -A tasks worker -l info gevent
+> celery -A tasks worker -l info -P gevent
 ```
 
 Then run the main python script:
